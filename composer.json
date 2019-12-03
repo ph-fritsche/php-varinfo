@@ -1,6 +1,8 @@
 {
     "name": "nextdev/varinfo",
     "description": "Description of variables e.g. for exception messages",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "nextdev\\Varinfo\\": "src/"
