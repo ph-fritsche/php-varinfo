@@ -20,23 +20,17 @@
         }
     },
     "require": {
-        "php": "^7"
+        "php": ">=7"
     },
     "require-dev": {
-        "phpunit/phpcov": "^6",
-        "phpunit/phpunit": "^8",
-        "squizlabs/php_codesniffer": "^3"
+        "phpunit/phpunit": "^9",
+        "squizlabs/php_codesniffer": "^3.2"
     },
     "scripts": {
         "lint": "phpcs --standard=ruleset.xml src test",
         "lint-fix" : "phpcbf --standard=ruleset.xml src test",
-        "test": [
-            "@test-unit",
-            "@testcov"
-        ],
-        "test-unit": "phpunit --coverage-php .tmp/coverage/unit.cov",
-        "test-s": "phpunit --stop-on-failure",
-        "testcov": "phpcov merge --text --html=.tmp/coverage -- .tmp/coverage"
+        "test": "phpunit",
+        "test-s": "phpunit --stop-on-failure"
     },
     "archive": {
         "exclude": [
