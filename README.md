@@ -6,7 +6,7 @@ DRY helper for describing variables
 if (!\is_numeric($foo)) {
     throw new InvalidArgumentException(\sprintf(
         'Expected numeric - %s given',
-        new nextdev\Varinfo\Varinfo($foo)
+        new PhF\Varinfo\Varinfo($foo)
     ));
 }
 ```

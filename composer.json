@@ -1,16 +1,22 @@
 {
-    "name": "nextdev/varinfo",
+    "name": "phf/varinfo",
     "description": "Description of variables e.g. for exception messages",
     "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Philipp Fritsche",
+            "email": "ph.fritsche@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
-            "nextdev\\Varinfo\\": "src/"
+            "PhF\\Varinfo\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "nextdev\\Varinfo\\": "test/"
+            "PhF\\Varinfo\\": "test/"
         }
     },
     "require": {

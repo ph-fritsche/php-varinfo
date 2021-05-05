@@ -1,5 +1,5 @@
 <?php
-namespace nextdev\Varinfo;
+namespace PhF\Varinfo;
 
 class VarinfoTest extends \PHPUnit\Framework\TestCase
 {

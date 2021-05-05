@@ -1,5 +1,5 @@
 <?php
-namespace nextdev\Varinfo;
+namespace PhF\Varinfo;
 
 /**
  * Description of a variable
